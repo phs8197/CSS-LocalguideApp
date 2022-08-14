@@ -1,0 +1,31 @@
+.status-bar {
+  position: fixed;
+  margin-top: -90px;
+  display: flex;
+  color: rgb(58, 58, 58);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.status-bar__column {
+  position: fixed;
+  width: 100%;
+  padding: 5px 5px;
+  box-sizing: border-box;
+}
+.status-bar__column:first-child span:first-child {
+  margin-right: 10px;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.status-bar__column:nth-child(3) span:nth-child(2) {
+  margin: 0px 10px;
+}
