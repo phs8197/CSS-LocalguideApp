@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,32 +14,42 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fa-solid fa-wifi"></i>
+        <span class="material-symbols-rounded" style="font-size: 25px">
+          lte_mobiledata
+        </span>
+        <span class="material-symbols-rounded" style="font-size: 16px">
+          wifi
+        </span>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <i class="fa-solid fa-battery-full fa-lg"></i>
-        <i class="fa-solid fa-bolt"></i>
+        <span class="material-symbols-rounded" style="font-size: 20px">
+          battery_horiz_075</span
+        >
+        <span class="material-symbols-rounded" style="font-size: 20px">
+          bolt
+        </span>
       </div>
     </div>
 
     <header class="screen-header">
       <h1 class="screen-header__title">Where</h1>
       <div class="screen-header__icons">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span class="material-symbols-rounded"> search </span>
+        <span class="material-symbols-rounded"> notifications </span>
+        <span class="material-symbols-rounded">settings </span>
       </div>
     </header>
 
     <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i>
+      <span class="material-symbols-rounded"> info </span>
       Select your location
-      <i class="fa-solid fa-angle-right"></i>
+      <span class="material-symbols-rounded" style="font-size: 25px">
+        chevron_right
+      </span>
     </a>
 
     <main class="friends-screen">
@@ -44,16 +58,22 @@
           <img src="image/4.jpg" class="user-component__avatar--xl" />
           <div class="user-component__text">
             <h4 class="user-component__title">South Korea</h4>
-            <!--<h6 class="user-component__subtitle">Whatever you want
-                    </h6>-->
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <div>
+            <span class="material-symbols-rounded" style="font-size: 25px">
+              chevron_right
+            </span>
+          </div>
+        </div>
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-angle-up"></i>
+          <span>Country</span>
+          <span class="material-symbols-rounded" style="font-size: 25px">
+            chevron_right
+          </span>
         </div>
         <div class="user-component">
           <div class="user-component__column">
@@ -62,17 +82,106 @@
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
-              <h4
-                class="user-component__title user-component__title--not-bold"
-              ></h4>
+              <h4 class="user-component__title user-component__title--not-bold">
+                Bali
+              </h4>
               <!--<h6 class="user-component__subtitle">Whatever you want
                             </h6>-->
             </div>
           </div>
           <div class="user-component__column">
             <div>
-              <span>2</span>
-              <i class="fa-solid fa-angle-right"></i>
+              <span class="material-symbols-rounded" style="font-size: 25px">
+                chevron_right
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="image/2.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Singapore
+              </h4>
+              <!--<h6 class="user-component__subtitle">Whatever you want
+                              </h6>-->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span class="material-symbols-rounded" style="font-size: 25px">
+                chevron_right
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="image/7.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Cambodia
+              </h4>
+              <!--<h6 class="user-component__subtitle">Whatever you want
+                              </h6>-->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span class="material-symbols-rounded" style="font-size: 25px">
+                chevron_right
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="image/5.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                San Fransico
+              </h4>
+              <!--<h6 class="user-component__subtitle">Whatever you want
+                              </h6>-->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span class="material-symbols-rounded" style="font-size: 25px">
+                chevron_right
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="image/6.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Vietnam
+              </h4>
+              <!--<h6 class="user-component__subtitle">Whatever you want
+                              </h6>-->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span class="material-symbols-rounded" style="font-size: 25px">
+                chevron_right
+              </span>
             </div>
           </div>
         </div>
@@ -83,35 +192,44 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i
-          ></a>
+            ><span class="material-symbols-rounded" style="font-size: 36px">
+              home
+            </span></a
+          >
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i
-          ></a>
+            <span class="material-symbols-rounded" style="font-size: 36px">
+              apps
+            </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="material-symbols-rounded" style="font-size: 32px">
+              chat_bubble
+            </span>
+            <span class="nav__notification badge">1</span></a
+          >
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <span class="nav__notification2"></span>
-            <i class="fa-solid fa-ellipsis fa-2x"></i
-          ></a>
+            <span class="material-symbols-rounded" style="font-size: 40px">
+              person
+            </span></a
+          >
         </li>
       </ul>
     </nav>
     <div id="splash-screen">
-      <i class="fa-solid fa-comment fa-2x"></i>
+      <div class="logo">
+        <img src="image/logo2.png" class="logo" />
+      </div>
     </div>
 
-    <script
-      src="https://kit.fontawesome.com/1fe08feb85.js"
-      crossorigin="anonymous"
-    ></script>
+    <div class="no-mobile">
+      <span>Your screen is too bigㅠㅠ</span>
+    </div>
   </body>
 </html>

@@ -1,47 +1,62 @@
 .user-component {
+  display: flex;
   justify-content: space-between;
   margin-top: 30px;
+}
+.main-screen .user-component {
+  padding: 0px 10px;
 }
 .user-component,
 .user-component__column {
   display: flex;
   align-items: center;
 }
-
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
 .user-component__title {
   font-weight: 600;
   font-size: 20px;
 }
 .user-component__subtitle {
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 12px;
   color: rgb(183, 183, 183);
 }
 .user-component__avatar {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .user-component__avatar--xl {
   width: 120px;
   height: 120px;
+  border-radius: 16px;
 }
 
 .user-component__avatar--sm {
   width: 100px;
   height: 100px;
+  border-radius: 12px;
 }
 
 .user-component__title--not-bold {
   font-weight: 400;
+  font-size: 15px;
 }
 
+.friends-screen .user-component__title--not-bold {
+  font-weight: 400;
+  font-size: 18px;
+}
 .friends-screen__channel {
-  margin-top: 10px;
+  margin-top: 5px;
   border-top: var(--main-border);
   padding-top: 15px;
 }
 
 .friends-screen__channel-header {
-  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.4);
@@ -56,4 +71,16 @@
 .user-component__time {
   margin-bottom: 5px;
   display: block;
+}
+
+.chats_image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.main-screen .user-component:hover {
+  background-color: var(--green);
+  padding: 5px 10px;
+  border-radius: 8px;
 }

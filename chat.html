@@ -1,90 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat w/nico-Kokoa Clone</title>
-</head>
-<body id="chat-screen">
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fa-solid fa-wifi"></i>
-          
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fa-solid fa-battery-full fa-lg"></i>
-            <i class="fa-solid fa-bolt"></i>
-        </div>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,400,0,0"
+    />
 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/nico-Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="material-symbols-rounded" style="font-size: 25px">
+          lte_mobiledata
+        </span>
+        <span class="material-symbols-rounded" style="font-size: 16px">
+          wifi
+        </span>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <span class="material-symbols-rounded" style="font-size: 20px">
+          battery_horiz_075</span
+        >
+        <span class="material-symbols-rounded" style="font-size: 20px">
+          bolt
+        </span>
+      </div>
     </div>
 
     <header class="alt-header">
-        <div class="alt-header__column">
-            <a href="chats.html">
-              <i class="fa-solid fa-angle-left fa-2xl"></i>
-            </a>
-        </div>
-        <div class="alt-header__column">
-        <h1 class="alt-header__title">Settings</h1>
-        </div>
-        <div class="alt-header__column">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-bars fa-lg"></i></span>
-        </div>
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <span class="material-symbols-rounded"> arrow_back_ios </span>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Haliey</h1>
+      </div>
+      <div class="alt-header__column">
+        <span class="material-symbols-rounded"> search </span>
+        <span class="material-symbols-rounded"> menu </span>
+      </div>
     </header>
 
     <main class="main-screen main-chat">
-        <div class="chat__timestamp">
-            Tuesday, June 30, 2020
-        </div>
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
 
-        <div class="message-row">
-            <img src="https://unsplash.com/photos/NSFoU92bD_Y/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OHx8ZWRpbmJ1cmdofGVufDB8fHx8MTY1ODgxNzg0NA&force=true&w=640"/>
-            <div class="message-row__content">
-                <span class="message__author">Nicolas</span>
-                <div class="message_info">
-                    <span class="message__bubble">Hi!</span>
-                    <span class="message__time">21:27</span>
-                </div>
-            </div>
+      <div class="message-row">
+        <img src="image/15.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Haliey</span>
+          <div class="message_info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
         </div>
+      </div>
 
-        <div class="message-row message-row__own">
-            <div class="message-row__content">
-                <div class="message_info">
-                    <span class="message__bubble">Nice to meet you</span>
-                    <span class="message__time">21:27</span>
-                </div>
-            </div>
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message_info">
+            <span class="message__bubble">Hello!</span>
+            <span class="message__time">21:27</span>
+          </div>
         </div>
-        
+      </div>
     </main>
 
     <form class="reply">
-        <div class="reply__column">
-            <i class="fa-regular fa-square-plus fa-lg"></i>
-
-        </div>
-        <div class="reply__column">
-            <input type="text" placeholder="Write a message"/>
-            <i class="fa-regular fa-face-smile-wink fa-lg"></i>
-            <button>
-            <i class="fa-solid fa-arrow-up"></i>
-            </button>
-
-            
-        </div>
-
+      <div class="reply__column">
+        <span class="material-symbols-rounded"> add_circle </span>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <span class="material-symbols-rounded"> add_reaction </span>
+        <button>
+          <span class="material-symbols-rounded"> arrow_circle_up </span>
+        </button>
+      </div>
     </form>
-
-
-    <script src="https://kit.fontawesome.com/1fe08feb85.js" crossorigin="anonymous"></script>
-</body>
+    <div class="no-mobile">
+      <span>Your screen is too bigㅠㅠ</span>
+    </div>
+  </body>
 </html>

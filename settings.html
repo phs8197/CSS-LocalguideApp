@@ -1,99 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Settings-Kokoa Clone</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fa-solid fa-wifi"></i>
-          
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fa-solid fa-battery-full fa-lg"></i>
-            <i class="fa-solid fa-bolt"></i>
-        </div>
-
+      <div class="status-bar__column">
+        <span class="material-symbols-rounded" style="font-size: 25px">
+          lte_mobiledata
+        </span>
+        <span class="material-symbols-rounded" style="font-size: 16px">
+          wifi
+        </span>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <span class="material-symbols-rounded" style="font-size: 20px">
+          battery_horiz_075</span
+        >
+        <span class="material-symbols-rounded" style="font-size: 20px">
+          bolt
+        </span>
+      </div>
     </div>
 
     <header class="alt-header">
-        <div class="alt-header__column">
-            <a href="more.html">
-              <i class="fa-solid fa-angle-left fa-2xl"></i>
-            </a>
-        </div>
-        <div class="alt-header__column">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <span class="material-symbols-rounded"> arrow_back_ios </span>
+        </a>
+      </div>
+      <div class="alt-header__column">
         <h1 class="alt-header__title">Settings</h1>
-        </div>
-        <div class="alt-header__column">
-        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-        </div>
+      </div>
+      <div class="alt-header__column">
+        <span class="material-symbols-rounded"> search </span>
+        <span class="material-symbols-rounded"> menu </span>
+      </div>
     </header>
 
-
     <main class="main-screen">
-        <ul class="settings-list">
-            <li class="settings-setting">
-                <div class="settings-setting__column">
-                  <i class="fa-solid fa-bullhorn fa-lg"></i>
-                  <span>Notices</span>
-                </div>
-                <div class="settings-setting__column"></div>
-
-            </li>
-            <li class="settings-setting">
-                <div class="settings-setting__column">
-                  <i class="fa-solid fa-flask fa-lg"></i>
-                  <span>Kokoa Lab</span>
-                </div>
-                <div class="settings-setting__column"></div>
-
-            </li>
-            <li class="settings-setting">
-                <div class="settings-setting__column">
-                  <i class="fa-solid fa-circle-info fa-lg"></i>
-                  <span>Version</span>
-                </div>
-                <div class="settings-setting__column">Latest Version</div>
-            </li>
-        </ul>
-    
-
+      <ul class="settings-list">
+        <li class="settings-setting">
+          <div class="settings-setting__column">
+            <span class="material-symbols-rounded"> notifications </span>
+            <span>Notices</span>
+          </div>
+          <div class="settings-setting__column"></div>
+        </li>
+        <li class="settings-setting">
+          <div class="settings-setting__column">
+            <span class="material-symbols-rounded"> lock </span>
+            <span>Privacy</span>
+          </div>
+          <div class="settings-setting__column"></div>
+        </li>
+        <li class="settings-setting">
+          <div class="settings-setting__column">
+            <span class="material-symbols-rounded"> verified_user </span>
+            <span>Version</span>
+          </div>
+          <div class="settings-setting__column">Latest Version</div>
+        </li>
+      </ul>
     </main>
 
-
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html">
-                    <i class="fa-regular fa-user fa-2x"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>
-                    <i class="far fa-comment fa-2x"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link"href="find.html">
-                    <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link"href="more.html">
-                    <span class="nav__notification2"></span>
-                    <i class="fa-solid fa-ellipsis fa-2x"></i></a>
-            </li>
-        </ul>
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><span class="material-symbols-rounded" style="font-size: 36px">
+              home
+            </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <span class="material-symbols-rounded" style="font-size: 36px">
+              apps
+            </span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="material-symbols-rounded" style="font-size: 32px">
+              chat_bubble
+            </span>
+            <span class="nav__notification badge">1</span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notification2"></span>
+            <span class="material-symbols-rounded" style="font-size: 40px">
+              person
+            </span></a
+          >
+        </li>
+      </ul>
     </nav>
 
-    <script src="https://kit.fontawesome.com/1fe08feb85.js" crossorigin="anonymous"></script>
-</body>
+    <div class="no-mobile">
+      <span>Your screen is too bigㅠㅠ</span>
+    </div>
+  </body>
 </html>

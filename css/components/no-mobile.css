@@ -1,0 +1,22 @@
+.no-mobile {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--green);
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-mobile span {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 645px) {
+  .no-mobile {
+    display: none;
+  }
+}

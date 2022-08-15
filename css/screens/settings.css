@@ -1,13 +1,18 @@
 .settings-setting {
-    padding: 30px 0;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    color: rgb(106, 106, 106);
-    font-size: 17px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgb(106, 106, 106);
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.settings-setting i{
-    margin-right:  20px;
+.settings-setting__column span:first-child {
+  margin-right: 20px;
+}
+
+.settings-setting__column {
+  display: flex;
+  align-items: center;
 }

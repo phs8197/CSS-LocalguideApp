@@ -1,19 +1,29 @@
-.icon-row{
-    display: flex;
-    justify-content: space-between;
+.icon-row_wrap {
+  display: flex;
+  flex-direction: column;
 }
 
-.icon-row__icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.icon-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 18px;
 }
 
-.icon-row__icon i{
-    font-size: 35px;
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
 }
 
-.icon-row__icon span{
-    margin-top: 15px;
+.icon-row__icon span:nth-child(2) {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(181, 181, 181);
 }
 
+.icon-row__icon:hover span {
+  color: var(--main-color);
+  cursor: pointer;
+}
