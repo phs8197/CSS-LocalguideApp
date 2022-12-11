@@ -14,13 +14,10 @@
 ## 현지 가이드를 소개해주어 여행에 도움을 주는 앱입니다.
 
 <p align="justify">
-html & css 만을 이용하였고, animation, media query를 이용하여 반응형에 맞게 작업하였습니다.   
-기획부터 디자인까지 피그
+html & css 만을 이용하였고, animation, media query를 이용하여 반응형에 맞게 작업하였습니다.<br>
+피그마를 이용하여 디자인하였고, 챌린지 우수 프로젝트로 뽑히게 되어 뿌듯함을 느꼈던 프로젝트입니다.
 </p>
 
-<p align="center">
-GIF Images
-</p>
 
 <br>
 
