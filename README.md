@@ -25,9 +25,9 @@ GIF Images
 
 ## 기술 스택
 
-| JavaScript | TypeScript |  React   |  Node   |
-| :--------: | :--------: | :------: | :-----: |
-|   ![js]    |   ![ts]    | ![react] | ![node] |
+|    html    |     css    |  
+| :--------: | :--------: |
+|  ![html]   |   ![css]   | 
 
 <br>
 
@@ -56,7 +56,8 @@ GIF Images
 MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
 <!-- Stack Icon Refernces -->
-
+[html]: /image/stack/html.svg
+[css]: /image/stack/css.svg
 [js]: /image/stack/javascript.svg
 [ts]: /image/stack/typescript.svg
 [react]: /image/stack/react.svg
