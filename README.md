@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img src="./images/common/logo-sample.jpeg">
+  <img src="./image/12.jpg">
   <br>
 </p>
 
@@ -54,7 +54,7 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
-[js]: /images/stack/javascript.svg
-[ts]: /images/stack/typescript.svg
-[react]: /images/stack/react.svg
-[node]: /images/stack/node.svg
+[js]: /image/stack/javascript.svg
+[ts]: /image/stack/typescript.svg
+[react]: /image/stack/react.svg
+[node]: /image/stack/node.svg
