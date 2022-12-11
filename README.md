@@ -1,6 +1,6 @@
 # 로컬 가이드 앱
 
-<p align="center">
+<p align="center" "display: flex; align-items: flex-start;">
   <br>
   <img src="./image/301.png">
   <img src="./image/302.png">
