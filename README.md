@@ -1,11 +1,11 @@
 # 로컬 가이드 앱
 
-<p align="center" "display: flex; align-items: flex-start;">
+<p align="center" style="display: flex;">
   <br>
-  <img src="./image/301.png">
-  <img src="./image/302.png">
-  <img src="./image/303.png">
-  <img src="./image/304.png">
+  <img src="./image/301.png" width="25%">
+  <img src="./image/302.png" width="25%">
+  <img src="./image/303.png" width="25%">
+  <img src="./image/304.png" width="25%">
   <br>
 </p>
 
