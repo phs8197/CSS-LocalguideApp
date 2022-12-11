@@ -14,7 +14,8 @@
 ## 현지 가이드를 소개해주어 여행에 도움을 주는 앱입니다.
 
 <p align="justify">
-html & css 만을 이용하였고, animation, media query를 이용하여 반응형에 맞게 작업하였습니다.
+html & css 만을 이용하였고, animation, media query를 이용하여 반응형에 맞게 작업하였습니다.   
+기획부터 디자인까지 피그
 </p>
 
 <p align="center">
@@ -25,9 +26,9 @@ GIF Images
 
 ## 기술 스택
 
-|    html    |     css    |  
-| :--------: | :--------: |
-|  ![html]   |   ![css]   | 
+|    html    |     css    |     figma.   |
+| :--------: | :--------: | :--------:   |
+|  ![html]   |   ![css]   |   ![figma].  |
 
 <br>
 
@@ -58,7 +59,7 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 <!-- Stack Icon Refernces -->
 [html]: /image/stack/html.svg
 [css]: /image/stack/css.svg
-[js]: /image/stack/javascript.svg
+[figma]: /image/stack/figma.svg
 [ts]: /image/stack/typescript.svg
 [react]: /image/stack/react.svg
 [node]: /image/stack/node.svg
