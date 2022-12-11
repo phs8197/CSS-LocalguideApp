@@ -32,7 +32,7 @@ html & css 만을 이용하였고, animation, media query를 이용하여 반응
 ## 구현 기능
 
 ### 기능 1
-<br>media query<br> 
+media query<br> 
 ### 기능 2
 
 ### 기능 3
