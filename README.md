@@ -1,4 +1,4 @@
-# 로컬 가이드 앱
+# 로컬 가이드 앱 (Local guide App)
 
 <p align="space-between" style="display: flex;">
   <br>
